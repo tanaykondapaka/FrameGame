@@ -1,0 +1,104 @@
+*{
+
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image: url("frame3.png");
+    background-size:400px;
+    border: 50px #58a6a6;;
+    border-style:ridge;
+    
+}
+#title_shadow{
+    font-size: 120px;
+    font-family: 'Shrikhand', cursive;
+height: min-content;
+    color: hwb(180 35% 35%); 
+    margin-top: 150px;
+    animation: def 1s ease paused;
+}
+@keyframes def{
+    from{
+        font-size: 120px;
+
+    }
+    to{
+        font-size: 70px;
+margin-top: 10px;
+    }
+}
+#title{
+    font-size: 120px;
+    font-family: 'Shrikhand', cursive;
+height: min-content;
+    color: #421e22;
+  margin-top: -180;
+    margin-left: 10px;
+    animation: cde 1s ease paused;
+}
+@keyframes cde{
+    from{
+        font-size: 120px;
+margin-top: -180px;
+    }
+    to{
+        font-size: 70px;
+margin-top: -105px;
+    }
+}
+#play{
+
+    height:50px;
+    width:200px;
+    font-family: 'Chewy', cursive;
+    background-color: #efa355;
+    border-radius: 100px;
+    border: #58a6a6 solid 5px;
+    color: black;
+    font-size: 25px;
+    animation: abc 1s ease paused;
+
+}
+#play:hover{
+    background-color: #421e22;
+    color: white;
+
+}
+#save{
+
+    height:50px;
+    width:100px;
+    font-family: 'Chewy', cursive;
+    background-color: #efa355;
+    border-radius: 0 100px 100px 0;
+    border: #58a6a6 solid 5px;
+    color: black;
+    font-size: 25px;
+    animation: abc 1s ease paused;
+    border-width: 5px 5px 5px 2.5px;
+    display: none;
+
+}
+#save:hover{
+    background-color: #421e22;
+    color: white;
+
+}
+
+@keyframes abc{
+
+    from{
+margin-top: 0;
+    }
+    to{
+        margin-top: 390px;
+    }
+}
+
+h3{
+    color:#0000ff50
+}
+
+
